@@ -1,0 +1,38 @@
+.navBar ul{
+    margin: 0%;
+    padding: 0%;
+    width: 105%;
+    height: 72px;
+    position: fixed;
+    z-index: 10;
+    -webkit-box-align: center;
+      align-items: center;
+    display: flex;
+    -webkit-box-pack: justify;
+    list-style: none;
+    justify-content:space-around;
+    /* background: transparent; */
+    background-image: url(https://www.dhresource.com/0x0/f2/albu/g8/M01/91/D8/rBVaVFw9ODCAQTn9AAHEz55jsrE989.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 21%;
+    margin-left: -2.25%;
+    }
+
+    .navBar a{
+      text-decoration: none;
+      font-family:  Avenir-Heavy, sans-serif;
+      font-size: 16px;
+      letter-spacing: 1.42px;
+      line-height: 1.08;
+      color:rgb(255, 255, 255);
+    }
+
+    @media only screen and (max-width: 600px){
+      .navBar a {
+        font-size: 12px;
+      }
+    }
+
+
+  

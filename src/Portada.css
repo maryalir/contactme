@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap&subset=latin-ext');
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* this is for the flip-flop elements to change as book */
+.App-pages {
+  height: 80vh;
+  width: 80vw;
+  perspective: 960px;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.App-page { 
+  color: white;
+  height: 100%;
+}
+
+.App-page_brown {
+  background-image: url(https://media.istockphoto.com/illustrations/grunge-frame-illustration-id175596976?k=6&m=175596976&s=612x612&w=0&h=lqvQBdnTiskeHKpvW6JGNaIUA5di4N-NBwCNEapqLJY=);
+  background-repeat: no-repeat;
+  background-position: center;
+  color:whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 500%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+}
+
+.App-page_green {
+  /* background-image: url(https://clipartart.com/images/book-border-clipart-12.png); */
+  /* background-image: url(https://www.galleryone.org.au/wp-content/uploads/2019/04/Diary.jpg); */
+  background-image: url(https://image.freepik.com/vector-gratis/viejo-libro-abierto-marcador-forma-corazon_135176-32.jpg);
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color:goldenrod;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 800%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.App-page_blue {
+  /* background-image: url(https://www.pngkey.com/png/full/572-5725956_paper-book-clip-art-vintage-open-book-png.png); */
+  /* background-image: url(https://lh3.googleusercontent.com/proxy/bKAIwbSx6UErT4hsFhx91YvCjGrlMF4OYm4GRisHsijlKdToi9qqstzlN30GKwf-RbTy3yGTGVTgQygp6dfqWM5ywAI9nxuvhIGnTHpUZBLrKOGVRzS-FStWgFqgDKRRRgkZl0z-82arIERnBg); */
+  background-image: url(https://image.freepik.com/vector-gratis/viejo-libro-abierto-marcador-forma-corazon_135176-32.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: goldenrod;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 800%;
+  display: flex;  
+  align-items: center;
+  justify-content: center; 
+}
+
+.App-page_orange {
+  /* background-image: url(https://i.pinimg.com/originals/74/b7/3d/74b73de9ef7bea0d80ecf6c1157a5e19.jpg); */
+    background-image: url(https://www.galleryone.org.au/wp-content/uploads/2019/04/Diary.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color:whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 500%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+/* .Proyectos{
+
+} */
+
+.Myname{
+  margin-top: 72px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://www.dhresource.com/0x0/f2/albu/g8/M01/91/D8/rBVaVFw9ODCAQTn9AAHEz55jsrE989.jpg);
+  background-repeat: no-repeat;  
+  background-size: 105% 210%;
+  background-position: center;
+}
+
+.MynameStyleA{
+  margin-left: 35%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5vw;
+  color:#f6e27a;
+}
+
+.MynameStyleB{
+  margin-left: 23%;
+  position: relative;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 5px;
+  font-size: 10vw;
+  font-weight: bold;
+  overflow: hidden;
+ /* background-image: linear-gradient(to right,#462523 0,#cb9b51 22%,#f6e27a 45%,
+                                    #f6f2c0 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%); */
+  background-image: linear-gradient(to right,#462523 0,#353432 22%,#535352 45%,
+                                    #585857 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 7s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(50, 0, 0, 0);
+}
+
+
+@keyframes animate {
+  0% {
+    background-position: -400%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+
+
+
+

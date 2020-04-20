@@ -1,0 +1,18 @@
+.grandivab{
+  display: flex;
+  }
+  
+  .littledivab{
+    margin-top:72px;
+  }
+
+.MynameStyleC{
+  margin-left: 23%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5vw;
+  
+}
+
+.bio{
+  background-color: green;
+}

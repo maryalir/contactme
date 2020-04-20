@@ -1,0 +1,79 @@
+.grandivcont{
+  width: 100%;
+display: flex;
+}
+
+.littledivcont{
+  margin-top:72px;
+  width: 100%;
+  height: 100vh;
+}
+
+.divuno{
+  display: flex;
+  width: 100%;
+  height: 70%;
+}
+
+.contactinf{
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.animatedimg{
+  background-color: blue;
+  width: 50%;
+}
+
+.labeltitle{
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+
+.formunodos{
+  margin-left: 10%;
+  width: 100%;
+display: flex;
+-ms-flex-align: center;
+}
+
+.contactform{
+  width: 100%;
+  /* height: 32vh; */
+  background-color: rgb(228, 230, 230);
+  -ms-flex-align: center;
+}
+
+.formuno{
+  width: 30%;
+}
+
+.formdos{
+width: 50%;
+margin-left: 10%;
+}
+
+.formbutton{
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .formunodos{
+    flex-direction: column;
+  }
+
+  .formuno{
+    width: 80%;
+  }
+  
+  .formdos{
+    margin-left: 0%;
+    width: 80%;
+  }
+
+}
