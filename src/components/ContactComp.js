@@ -15,7 +15,6 @@ const ContactComp = () => {
 
   const sendEmail = (e) => {
       e.preventDefault()
-      console.log('empezando la funcion de mandar el email');
       axios
         .post('/send',{...state})
         .then(response => {
@@ -23,13 +22,14 @@ const ContactComp = () => {
           setState({
             name:"",
             email:"",
-            message:""
+            message:"",
+            buttonText: 'send Message'
           });
         })
         .catch(() => {
           setResult({
             success: false,
-            message: "no sirve"
+            message: "Message not sent. Reach out to me at linkedIn."
           });
         })
 
@@ -44,7 +44,7 @@ const ContactComp = () => {
         setState({
           ...state,
           [name]: value,
-          buttonText: '...Sending'
+          // buttonText: '...Sending'
         });
       };
 
@@ -76,6 +76,11 @@ const ContactComp = () => {
     <div>
 
       <p className='labeltitle'>Send me an email!</p>
+      {
+        result && (
+          <p className={`${result.success ? 'success' : 'error'}`}>{result.message}</p>
+        )
+      }
 
     <form className='form-row align-items-center' onSubmit={sendEmail}>
 
