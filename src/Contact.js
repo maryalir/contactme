@@ -3,7 +3,6 @@ import axios from 'axios';
 import './Contact.css';
 import ContactComp from './components/ContactComp';
 
-
 class Contact extends Component{
   
   render(){
@@ -31,4 +30,3 @@ class Contact extends Component{
 }
 
 export default Contact;
-
