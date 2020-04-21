@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "flipping-pages": "^2.1.3",
     "nodemailer": "^6.4.6",
+    "now": "^18.0.0",
     "react": "^16.13.1",
     "react-bootstrap": "1.0.0-beta.16",
     "react-dom": "^16.13.1",
