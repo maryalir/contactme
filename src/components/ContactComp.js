@@ -32,10 +32,6 @@ const ContactComp = () => {
             message: "Message not sent. Reach out to me at linkedIn."
           });
         })
-
-      // setState({
-      //   buttonText: '...Sending'
-      // });
   }
 
       const onInputChange = e => {
@@ -44,44 +40,17 @@ const ContactComp = () => {
         setState({
           ...state,
           [name]: value,
-          // buttonText: '...Sending'
         });
       };
 
-      // let data = {
-      //   name: this.state.name,
-      //   email: this.state.email,
-      //   message: this.state.message
-      // }
-
-  //     axios.post('http://localhost:4444/', data)
-  //     .then (res => {
-  //       this.setState({sent: true}, this.resetForm())
-  //     })
-  //     .catch( () => {
-  //       console.log('message not sent')
-  //     })
-  // }
-
-  // const resetForm = () => {
-  //   this.setState({
-  //     name: '',
-  //     email:'',
-  //     message:'',
-  //     buttonText: 'Message Sent'
-  //   })
-  // }
-
   return(
     <div>
-
       <p className='labeltitle'>Send me an email!</p>
       {
         result && (
           <p className={`${result.success ? 'success' : 'error'}`}>{result.message}</p>
         )
       }
-
     <form className='form-row align-items-center' onSubmit={sendEmail}>
 
       <div className='formunodos'>
@@ -109,13 +78,9 @@ const ContactComp = () => {
         <button class='btn btn-success formbutton' 
         type='submit'>{state.buttonText}</button>
       </div>
-
     </form>
-
     </div>
   );
-
-
 };
 
 export default ContactComp;
