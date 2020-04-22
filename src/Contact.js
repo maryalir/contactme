@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import axios from 'axios';
 import './Contact.css';
 import ContactComp from './components/ContactComp';
+// import './images';
+import Animatedimg from './components/AnimatedImg';
 
 class Contact extends Component{
   
@@ -15,7 +16,9 @@ class Contact extends Component{
               <span className="">Download Resume</span>
             </div>
             <div className='animatedimg'>
-              <span className="">Imagenes animadas van aqui</span>
+              {/* <span className="">Imagenes animadas van aqui</span> */}
+              <Animatedimg />
+                  {/* <img onLoad='imgChange' Id='imguno' src={require ('./images/unob.jpeg')} alt="hola"/> */}
             </div>
           </div>
          
