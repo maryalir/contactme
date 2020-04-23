@@ -11,27 +11,27 @@ const AnimatedImg = () => {
   var c = [require ('../images/dosc.jpeg'), require ('../images/unoc.jpeg')];
   var i=0;
 
-function imgChange(){
+  function imgChange(){
 
-  if (i===a.length-1){
-    i=0;
-  } else{ 
-    i=i+1;
+    if (i===a.length-1){
+      i=0;
+    } else{ 
+      i=i+1;
+    }
+    setTimeout(() => {
+      document.getElementById("imguno").src=a[i]; 
+
+    }, 2000);
+
+    setTimeout(() => {
+      document.getElementById("imgdos").src=b[i]; 
+    }, 4000)
+
+    setTimeout(() => {
+      document.getElementById("imgtres").src=c[i]; 
+      imgChange();
+    },6000)
   }
-  setTimeout(() => {
-     document.getElementById("imguno").src=a[i]; 
-
-  }, 2000);
-
-  setTimeout(() => {
-    document.getElementById("imgdos").src=b[i]; 
-  }, 4000)
-
-  setTimeout(() => {
-     document.getElementById("imgtres").src=c[i]; 
-     imgChange();
-  },6000)
-}
 
   return(
     <div className="adaptable"  onLoad={imgChange()}>
