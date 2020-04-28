@@ -21,16 +21,16 @@ const AnimatedImg = () => {
     setTimeout(() => {
       document.getElementById("imguno").src=a[i]; 
 
-    }, 2000);
+    }, 1500);
 
     setTimeout(() => {
       document.getElementById("imgdos").src=b[i]; 
-    }, 4000)
+    }, 3000)
 
     setTimeout(() => {
       document.getElementById("imgtres").src=c[i]; 
       imgChange();
-    },6000)
+    },4500)
   }
 
   return(
