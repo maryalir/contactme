@@ -8,12 +8,16 @@ const SocialMedia = () => {
       window.open("https://www.linkedin.com/in/maryalirondon/","_blank", "width=100, height=100");
     };
 
+    function downloadResume() {
+      
+    };
+
   return(
 
     <div className='divSocial'>
       <p className='titleContactme'>Contact Me</p>
 
-      <div onCLick='linkLinkedIn()' className='divlinkedIn' >
+      <div onClick={() => linkLinkedIn()} className='divlinkedIn' >
         <img className='iconLinkedin' src={'https://seeklogo.net/wp-content/uploads/2012/03/linkedin-icon-logo-vector.png'} alt="soy LinkedIn Icon"/>
         <span className="textLinkedIn">Connect with me on linkeIn</span>
       </div>

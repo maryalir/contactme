@@ -37,15 +37,15 @@ const AnimatedImg = () => {
     <div className="adaptable"  onLoad={imgChange()}>
 
       <div className='divimguno'>
-        <img className='imguno' Id='imguno' src='' alt=""/>
+        <img className='imguno' id='imguno' src='' alt=""/>
       </div>
 
     <div className='divimgdos'>
-      <img className='imgdos'  Id='imgdos' src='' alt=""/>
+      <img className='imgdos'  id='imgdos' src='' alt=""/>
     </div>
 
     <div className='divimgtres'>
-      <img className='imgtres'  Id='imgtres' src='' alt=""/>
+      <img className='imgtres'  id='imgtres' src='' alt=""/>
     </div>
 
     </div>

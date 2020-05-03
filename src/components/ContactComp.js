@@ -55,27 +55,27 @@ const ContactComp = () => {
 
       <div className='formunodos'>
         <div className="formuno">
-          <label class='' htmlFor='message-name'>Your Name</label>
+          <label className='' htmlFor='message-name'>Your Name</label>
           <input onChange={onInputChange} 
-            class='form-control mb-2' name='name' placeholder='Name' 
+            className='form-control mb-2' name='name' placeholder='Name' 
             type='text' value={state.name}/>
 
           <label>Your Email</label>
           <input onChange={onInputChange } 
-          class='form-control mb-2' name='email' placeholder='xxx@email.com'
+          className='form-control mb-2' name='email' placeholder='xxx@email.com'
           type='email' value={state.email} required/>
         </div>
 
         <div className="formdos">
-          <label class='message'>Type your message</label>
+          <label className='message'>Type your message</label>
           <textarea onChange={onInputChange} 
-          class='form-control mb-2' rows='4' name='message' placeholder='Please write your message here' 
+          className='form-control mb-2' rows='4' name='message' placeholder='Please write your message here' 
           type='text' value={state.message} required/>
         </div>
       </div>
 
       <div className='formbutton'>
-        <button class='btn btn-success formbutton' 
+        <button className='btn btn-success formbutton' 
         type='submit'>{state.buttonText}</button>
       </div>
     </form>
