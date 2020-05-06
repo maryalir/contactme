@@ -65,15 +65,16 @@ margin-left: 10%;
 @media only screen and (max-width: 600px) {
   .formunodos{
     flex-direction: column;
+    width:100%;
   }
 
   .formuno{
-    width: 80%;
+    width: 90%;
   }
   
   .formdos{
     margin-left: 0%;
-    width: 80%;
+    width: 90%;
   }
 
 }

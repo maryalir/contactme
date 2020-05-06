@@ -4,8 +4,8 @@
 }
 
 .divimguno {
-  width: 100%;
-  height:33.33%
+  width: 70%;
+  height:50%
 }
 
 .imguno {
@@ -14,8 +14,8 @@
 }
 
 .divimgdos {
-  width: 100%;
-  height:33.34%
+  width: 70%;
+  height:50%
 }
 
 .imgdos {
@@ -23,12 +23,47 @@
   height:100%
 }
 
-.divimgtres {
-  width: 100%;
-  height:33.33%
+/* .divimgtres {
+  width: 0%;
+  height:0%
 }
 
 .imgtres {
   width: 100%;
   height:100%
+} */
+
+@media only screen and (max-width: 600px){
+.divimguno {
+  margin-top:20%;
+  width: 95%;
+  height:40%
+}
+
+/* .imguno {
+  width: 100%;
+  height: 100%;
+} */
+
+.divimgdos {
+  margin-top:15%;
+  width: 95%;
+  height:40%
+}
+
+/* .imgdos {
+  width: 100%;
+  height:100%
+} */
+
+/* .divimgtres {
+  width: 100%;
+  height:33.33%
+} */
+
+/* .imgtres {
+  width: 100%;
+  height:100%
+} */
+  
 }
