@@ -1,15 +1,16 @@
 import React from 'react';
 import './SocialMedia.css'
+import pdf from '../pdf/Maryali V. Rondon Resume.pdf'
 
 
 const SocialMedia = () => {
 
     function linkLinkedIn() {
-      window.open("https://www.linkedin.com/in/maryalirondon/","_blank", "width=100, height=100");
+      window.open("https://www.linkedin.com/in/maryalirondon/","_blank");
     };
 
     function downloadResume() {
-      
+      window.open(`${pdf}`, "_blank")
     };
 
   return(
@@ -19,12 +20,12 @@ const SocialMedia = () => {
 
       <div onClick={() => linkLinkedIn()} className='divlinkedIn' >
         <img className='iconLinkedin' src={'https://seeklogo.net/wp-content/uploads/2012/03/linkedin-icon-logo-vector.png'} alt="soy LinkedIn Icon"/>
-        <span className="textLinkedIn">Connect with me on linkeIn</span>
+        <span className="textLinkedIn">Connect with me on LinkedIn</span>
       </div>
 
-      <div className='divResume' >
+      <div onClick={() => downloadResume()} className='divResume' >
         <img className='iconPdf' src={'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png'} alt="soy LinkedIn Icon"/>
-        <span className="textResume">Download my resume</span>
+        <span className="textResume">Get my resume</span>
       </div>
 
 

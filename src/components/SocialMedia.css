@@ -15,9 +15,11 @@
   display:flex;
   flex-direction: 
 }
+.divlinkedIn:hover{
+  cursor: pointer;
+}
 .iconLinkedin{
   width:15%;
-  
 }
 .textLinkedIn{
 text-align:center;
@@ -27,9 +29,13 @@ margin:5%;
 }
 
 .divResume{
-  margin:10%;
+  margin-top:15%;
+  margin-left:10%;
   width:90%;
   display:flex;
+}
+.divResume{
+  cursor:pointer;
 }
 .iconPdf{
   width:15%;
@@ -45,21 +51,33 @@ font-size:24px;
 @media only screen and (max-width: 600px){
 
 .titleContactme{
-  margin-top:5%;
+  margin-top:10%;
+  margin-left:20%;
   text-align: center;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .textLinkedIn{
 text-align:center;
 color: blue;
-font-size:14px;
+font-size:18px;
 }
 
 .textResume{
 text-align:center;
 color:red;
-font-size:14px;
+font-size:18px;
+}
+
+.divlinkedIn, .divResume{
+  margin-top:30%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.iconLinkedin, .iconPdf{
+  width:30%;
 }
 
 }
