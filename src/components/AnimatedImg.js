@@ -13,29 +13,44 @@ const AnimatedImg = () => {
 
 
   function imgChange(){
-
+    
       if (i===a.length-1){
         i=0;
       } else{ 
         i=i+1;
       }
       setTimeout(() => {
-        document.getElementById("imguno").src=a[i]; 
+        document.getElementById("imguno") 
+        ? document.getElementById("imguno").src=a[i] 
+        :  alto();
+        console.log("estoy entrando al bucle")
       }, 1500);
 
       setTimeout(() => {
-        document.getElementById("imgdos").src=b[i]; 
+        document.getElementById("imgdos") 
+        ? document.getElementById("imgdos").src=b[i] 
+        : alto(); 
+        console.log("estoy entrando al bucle tambien")
         imgChange();
       }, 3000);
-
+     
     // setTimeout(() => {
     //   document.getElementById("imgtres").src=c[i]; 
     //   imgChange();
     // },4500);
   }
 
+  function alto(){
+    // e => e.preventDefault();
+    console.log("estoy siendo llamado");
+    clearTimeout();
+  }
+
+
+
   return(
-    <div className="adaptable"  onLoad={imgChange()}>
+    <div className="adaptable"  onLoad={imgChange()
+    }>
 
       <div className='divimguno'>
         <img className='imguno' id='imguno' src='' alt=""/>
@@ -50,6 +65,8 @@ const AnimatedImg = () => {
     </div> */}
 
     </div>
+
+    
   )
 }
 

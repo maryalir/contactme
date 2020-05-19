@@ -27,6 +27,12 @@ class Contact extends Component{
 
     )
   }
+
+  componentWillUnmount(){
+console.log("no me estoy refrescando")
+
+  window.addEventListener('beforeunload',   this.preventDefault());
+  }
 }
 
 export default Contact;
