@@ -1,6 +1,6 @@
 .grandivcont{
-  width: 100%;
-display: flex;
+ width: 100%;
+ display: flex;
 }
 
 .littledivcont{
@@ -16,7 +16,6 @@ display: flex;
 }
 
 .contactinf{
-
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -35,8 +34,8 @@ display: flex;
 .formunodos{
   margin-left: 10%;
   width: 100%;
-display: flex;
--ms-flex-align: center;
+  display: flex;
+  -ms-flex-align: center;
 }
 
 .contactform{
@@ -51,12 +50,11 @@ display: flex;
 }
 
 .formdos{
-width: 50%;
-margin-left: 10%;
+  width: 50%;
+  margin-left: 10%;
 }
 
 .formbutton{
-
   margin-left: auto;
   margin-right: auto;
 }
