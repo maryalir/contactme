@@ -1,18 +1,94 @@
 .grandivab{
-  display: flex;
+    display: flex;
   }
   
   .littledivab{
     margin-top:72px;
   }
 
-.MynameStyleC{
-  margin-left: 23%;
-  font-family: 'Dancing Script', cursive;
-  font-size: 3.5vw;
-  
-}
+  .WhoAmI {
+    display: flex;
+    width:100%;
+    text-align:center;
+  }
+  .who{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    margin-left:5%;
+  }
 
-.bio{
-  background-color: green;
-}
+  .bio{
+    margin-top:10%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7.5vw;
+  }
+
+  .iAsk {
+    margin-top:5%;
+    color:skyblue;
+    font-size: 3vw;
+  }
+
+  .whoIAmDiv{
+    width:60%;
+    text-align:center;
+  }
+  .whoAmIPic {
+    width: 50%;
+  }
+
+  .MynameStyleC{
+    margin-top:5%;
+    width:100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5vw;
+
+  }
+
+
+
+
+
+  @media only screen and (max-width: 600px){
+    
+    .WhoAmI {
+      display: flex;
+      width:100%;
+      flex-direction:column;
+      text-align:center;
+    }
+    .who{
+      margin-left:0%;
+      width: 100%;
+      display: flex;
+    }
+    .bio{
+      margin-top:10%;
+      font-size: 300%;
+    }
+    .iAsk {
+      margin-top:5%;
+      color:green;
+      font-size: 3vw;
+    }
+
+    .whoIAmDiv{
+      width:100%;
+    }
+    .whoAmIPic {
+      width: 50%;
+      text-align:center;
+
+    }
+
+    .MynameStyleC{
+      margin-top:5%;
+      width:100%;
+      text-align: center;
+      font-family: 'Dancing Script', cursive;
+      font-size: 3.5vw;
+    }
+  }
+

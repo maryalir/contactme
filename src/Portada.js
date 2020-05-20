@@ -35,38 +35,43 @@ next() {
 
 render() {
     return (
-        <div className="App">
-            <div className="Myname">
-                <span className="MynameStyleA">Hi, I am: </span>
-                <span className="MynameStyleB">Maryali Rondon</span>
-            </div>
-            <div className="Proyectos">
-                <h1>PROJECTS</h1>
-            </div>
-            <FlippingPages
-                className="App-pages"
-                direction="horizontal"
-                selected={this.state.selected}
-                onSelectedChange={this.handleSelectedChange}
-                /* touch-action attribute is required by pointer events
-                polyfill */
-                touch-action="none"
-            >
-                <div className="App-page App-page_brown"></div>
-                <div className="App-page App-page_green"></div>
-                <div className="App-page App-page_blue"> </div>
-                <div className="App-page App-page_orange"></div>
-            </FlippingPages>
-            {/* Buttons are required for keyboard navigation */}
-            <div>
-                <button
-                onClick={this.previous}
-                disabled={!this.state.selected}
-            >Previous</button>
-                <button
-                    onClick={this.next}
-                    disabled={this.state.selected + 1 === this.totalPages}
-                >Next</button>
+        <div className="AppGrande">
+            <div className='AppShort'>
+                <div className="Myname">
+                    <span className="MynameStyleA">Hi, I am: </span>
+                    <span className="MynameStyleB">Maryali Rondon</span>
+                </div>
+                <div className="Proyectos">
+                    <h1>PROJECTS</h1>
+                </div>
+                <div className='libro'>
+                    <FlippingPages
+                        className="App-pages"
+                        direction="horizontal"
+                        selected={this.state.selected}
+                        onSelectedChange={this.handleSelectedChange}
+                        /* touch-action attribute is required by pointer events
+                        polyfill */
+                        touch-action="none"
+                    >
+                        <div className="App-page App-page_brown"></div>
+                        <div className="App-page App-page_green"></div>
+                        <div className="App-page App-page_blue"> </div>
+                        <div className="App-page App-page_orange"></div>
+                    </FlippingPages>
+                </div>    
+                    {/* Buttons are required for keyboard navigation */}
+                    <div  className='NextBeforeBotton'>
+                        <button
+                        onClick={this.previous}
+                        disabled={!this.state.selected}
+                    >Previous</button>
+                        <button
+                            onClick={this.next}
+                            disabled={this.state.selected + 1 === this.totalPages}
+                        >Next</button>
+                    </div>
+
             </div>
         </div>
 
