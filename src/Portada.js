@@ -42,6 +42,17 @@ render() {
                     <span className="MynameStyleB">Maryali Rondon</span>
                 </div>
                 <div className="Proyectos">
+                    <h1>I can do...</h1>
+                </div>
+                <div className='languages'>
+                    <img className='laguagesOrden' src={require('./images/agile.jpg')} alt='aqui va react, css, git, etc'/>
+                    <img className='laguagesOrden' src={require('./images/github-logo.jpg')} alt='aqui va react, css, git, etc'/>
+                    <img className='laguagesOrden' src='https://pixels4kids.files.wordpress.com/2014/10/code-chillout.png?w=772' alt='aqui va react, css, git, etc'/>
+                    <img className='laguagesOrden' src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQH5xbyHds8XxB1V8Cfwi-aeKRWSXPNysn5NOeI_ZBJbwuvfyPP&usqp=CAU' alt='aqui va react, css, git, etc'/>
+                    <img className='laguagesOrden' src='https://www.netveloper.com/cw/eoo4oza8drvnrbtbsosg1350/cal_eoo4oza8drvnrbtbsosg1350_logo-Node.jpg' alt='aqui va react, css, git, etc'/>
+                    <img className='laguagesOrden' src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqgFF0dEzAh_MPnkxfPqwSplTGJexkJRx9JMHrFzIVJtGnnN0C&usqp=CAU' alt='aqui va react, css, git, etc'/>
+                </div>
+                <div className="Proyectos">
                     <h1>PROJECTS</h1>
                 </div>
                 <div className='libro'>

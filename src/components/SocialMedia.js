@@ -16,7 +16,7 @@ const SocialMedia = () => {
   return(
 
     <div className='divSocial'>
-      <p className='titleContactme'>Contact Me</p>
+      <p className='titleContactme'>Contact Me!</p>
 
       <div onClick={() => linkLinkedIn()} className='divlinkedIn' >
         <img className='iconLinkedin' src={'https://seeklogo.net/wp-content/uploads/2012/03/linkedin-icon-logo-vector.png'} alt="soy LinkedIn Icon"/>
