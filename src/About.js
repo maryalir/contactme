@@ -20,6 +20,20 @@ class about extends Component{
           <div className="MynameStyleC">
             <span>MBA | Scrum Product Owner | Electronic Engineer | Developer</span>
           </div>
+
+          <div className='maybeuno'>
+            1
+          </div>
+          <div className='maybedos'>
+            2
+          </div>
+          <div className='maybetres'>
+            3
+          </div>
+          <div className='maybecuatro'>
+            4
+          </div>
+
         </div>
       </div>
 
