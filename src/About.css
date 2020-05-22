@@ -47,6 +47,22 @@
 
   }
 
+  .maybeuno{
+    margin-top:5%;
+    background-color:lightblue;
+  }
+  .maybedos{
+    margin-top:5%;
+    background-color:lightblue;
+  }
+  .maybetres{
+    margin-top:5%;
+    background-color:lightblue;
+  }
+  .maybecuatro{
+    margin-top:5%;
+    background-color:lightblue;
+  }
 
 
 
@@ -58,6 +74,7 @@
       width:100%;
       flex-direction:column;
       text-align:center;
+      margin-top:-5%;
     }
     .who{
       margin-left:0%;
@@ -76,10 +93,12 @@
 
     .whoIAmDiv{
       width:100%;
+      margin-top:-3%;
     }
     .whoAmIPic {
-      width: 50%;
+      width: 40%;
       text-align:center;
+
 
     }
 
