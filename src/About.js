@@ -22,13 +22,17 @@ class about extends Component{
           </div>
 
           <div className='maybeuno'>
-            1
+            I am a creator, a person created to create 
           </div>
           <div className='maybedos'>
-            2
+            what I want? to create practical solutions for problems
+            so i can improve the life quality of persons 
           </div>
           <div className='maybetres'>
-            3
+            Como lo hago? analizando el origen del problema, 
+            detectando inconsistencia de datos,
+            estrategizando planes agiles  
+
           </div>
           <div className='maybecuatro'>
             4
