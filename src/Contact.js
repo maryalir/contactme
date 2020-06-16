@@ -22,7 +22,9 @@ class Contact extends Component{
           <div className='contactform'>
             <ContactComp />
           </div>
+          <div className='soloEspacio'></div>
         </div>
+
       </div>
 
     )

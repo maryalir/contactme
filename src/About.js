@@ -21,20 +21,29 @@ class about extends Component{
             <span>MBA | Scrum Product Owner | Electronic Engineer | Developer</span>
           </div>
 
-          <div className='maybeuno'>
-            I am a creator, a person created to create 
-          </div>
-          <div className='maybedos'>
-            what I want? to create practical solutions for problems
-            so i can improve the life quality of persons 
-          </div>
-          <div className='maybetres'>
-            Como lo hago? analizando el origen del problema, 
-            detectando inconsistencia de datos,
-            estrategizando planes agiles  
 
+          <div className='maybe'>I am a creator </div>
+          <div className='summary'>
+          <div className='summaryuno'> </div>
+          <div className='summarydos'>A person created to create</div>
           </div>
-          <div className='maybecuatro'>
+
+          <div className='maybe'>What I want? </div>
+          <div className='summary'>
+          <div className='summaryuno'>To create practical solutions for problems
+            so i can improve the life quality of persons</div>
+          <div className='summarydos'> </div>
+          </div>
+
+          <div className='maybe'>How I do it?</div>
+          <div className='summary'>
+          <div className='summaryuno'></div>
+          <div className='summarydos'> Analizando el origen del problema, 
+            detectando inconsistencia de datos,
+            estrategizando planes agiles</div>
+          </div>
+
+          <div className='maybe'>
             4
           </div>
 

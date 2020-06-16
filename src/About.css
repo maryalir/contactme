@@ -26,7 +26,7 @@
 
   .iAsk {
     margin-top:5%;
-    color:skyblue;
+    color: rgba(31, 121, 160, 0.988);
     font-size: 3vw;
   }
 
@@ -47,23 +47,44 @@
 
   }
 
-  .maybeuno{
+  .maybe{
     margin-top:5%;
     background-color:lightblue;
+    color: rgba(31, 121, 160, 0.988);
+    padding-left: 10%;
+    
   }
-  .maybedos{
+  /* .maybedos{
     margin-top:5%;
     background-color:lightblue;
+    color: rgba(31, 121, 160, 0.988);
   }
   .maybetres{
     margin-top:5%;
     background-color:lightblue;
+    color: rgba(31, 121, 160, 0.988);
   }
   .maybecuatro{
     margin-top:5%;
     background-color:lightblue;
-  }
+    color: rgba(31, 121, 160, 0.988);
+  } */
 
+  .summary{
+    display: flex;
+    margin: 1%;
+    margin-left: 3%;
+  }
+ .summaryuno{
+  width: 50%;
+  margin: 1%;
+  margin-left: 2%;
+ }
+ .summarydos{
+  width: 50%;
+  margin: 1%;
+  margin-left: 2%;
+ }
 
 
 
@@ -87,7 +108,6 @@
     }
     .iAsk {
       margin-top:5%;
-      color:green;
       font-size: 3vw;
     }
 
@@ -98,8 +118,6 @@
     .whoAmIPic {
       width: 40%;
       text-align:center;
-
-
     }
 
     .MynameStyleC{
@@ -107,6 +125,13 @@
       width:100%;
       text-align: center;
       font-family: 'Dancing Script', cursive;
+      font-size: 3.5vw;
+    }
+
+    .maybe{
+      font-size: 3.5vw;
+    }
+    .summary{
       font-size: 3.5vw;
     }
   }
