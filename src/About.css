@@ -52,7 +52,9 @@
     background-color:lightblue;
     color: rgba(31, 121, 160, 0.988);
     padding-left: 10%;
-    
+    height: 4%;
+    padding-top: 2.5%;
+    font-size: 2.5vw;
   }
   /* .maybedos{
     margin-top:5%;
@@ -85,8 +87,23 @@
   margin: 1%;
   margin-left: 2%;
  }
+ .parrafo{
+  margin-top:5%;
+  /* color: rgba(31, 121, 160, 0.988); */
+  font-size: 2.5vw;
+ }
+ 
 
+ .imageAbout{
+   width: 100%;
+   margin-top: 5%;
+ }
 
+ .mobius{
+  width: 100%;
+  /* margin-left: -15%; */
+  height: 120%;
+}
 
   @media only screen and (max-width: 600px){
     
@@ -130,6 +147,7 @@
 
     .maybe{
       font-size: 3.5vw;
+      /* padding-top: 1%; */
     }
     .summary{
       font-size: 3.5vw;
