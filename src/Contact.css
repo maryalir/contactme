@@ -59,6 +59,12 @@
   margin-right: auto;
 }
 
+.soloEspacio{
+  height: 2%;
+  width: 100%;
+  background-color: rgb(228, 230, 230);
+}
+
 @media only screen and (max-width: 600px) {
   .formunodos{
     flex-direction: column;
