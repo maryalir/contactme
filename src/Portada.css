@@ -67,22 +67,24 @@
   text-align:center;
   width:100%;
   background-color:skyblue;
+  font-size: 200%;
 }
 .libro{
+  width: 100%;
   text-align:center;
-  margin-top:3%;
+  /* margin-top:0.2%; */
 
 }
 .NextBeforeBotton{
-  margin-top:1%;
+  /* margin-top:0.2%; */
   text-align:center;
 }
 
 /* this is for the flip-flop elements to change as book */
 .App-pages {
   height: 80vh;
-  /* width: 100vw;
-  text-align:center; */
+  width: 100vw;
+  /* text-align:center; */
   perspective: 960px;
   -ms-user-select: none;
   -moz-user-select: none;
@@ -94,70 +96,52 @@
 .App-page { 
   color: white;
   height: 100%;
+  margin-top: 1%;
 }
 
 .App-page_brown {
   background-image: url(https://media.istockphoto.com/illustrations/grunge-frame-illustration-id175596976?k=6&m=175596976&s=612x612&w=0&h=lqvQBdnTiskeHKpvW6JGNaIUA5di4N-NBwCNEapqLJY=);
   background-repeat: no-repeat;
   background-position: center;
-  color:whitesmoke; 
+  color:rgb(41, 39, 33); 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 500%;
+  font-size: 350%;
+  background-size: 45% 98%;
   display: flex;
-  /* align-items: center; */
   justify-content: center; 
-
-}
-
-.App-page_green {
-  /* background-image: url(https://clipartart.com/images/book-border-clipart-12.png); */
-  /* background-image: url(https://www.galleryone.org.au/wp-content/uploads/2019/04/Diary.jpg); */
-  background-image: url(https://image.freepik.com/vector-gratis/viejo-libro-abierto-marcador-forma-corazon_135176-32.jpg);
-
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  color:goldenrod;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 800%;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
+  padding-top: 15%;
 }
 
 .App-page_blue {
   /* background-image: url(https://www.pngkey.com/png/full/572-5725956_paper-book-clip-art-vintage-open-book-png.png); */
   /* background-image: url(https://lh3.googleusercontent.com/proxy/bKAIwbSx6UErT4hsFhx91YvCjGrlMF4OYm4GRisHsijlKdToi9qqstzlN30GKwf-RbTy3yGTGVTgQygp6dfqWM5ywAI9nxuvhIGnTHpUZBLrKOGVRzS-FStWgFqgDKRRRgkZl0z-82arIERnBg); */
   background-image: url(https://image.freepik.com/vector-gratis/viejo-libro-abierto-marcador-forma-corazon_135176-32.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  color: goldenrod;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 800%;
-  display: flex;  
-  align-items: center;
-  justify-content: center; 
-}
 
-.App-page_orange {
-  /* background-image: url(https://i.pinimg.com/originals/74/b7/3d/74b73de9ef7bea0d80ecf6c1157a5e19.jpg); */
-    background-image: url(https://www.galleryone.org.au/wp-content/uploads/2019/04/Diary.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  color:whitesmoke;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 500%;
+}
+.pagesonetwo{
   display: flex;
-  align-items: center;
-  justify-content: center; 
 }
-
-
-
-
-
+.pageone{
+  width: 50%;
+  color: #353432;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 300%;
+  display: flex;  
+  justify-content: center;
+  margin-top: 5%;
+}
+.pagetwo{
+  width: 50%;
+  color: #353432;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 300%;
+  display: flex;  
+  justify-content: center;
+  margin-top: 5%;
+}
 
   @keyframes animate {
     0% {
@@ -167,37 +151,65 @@
       background-position: 500%;
     }
   }
+  
 
+
+ 
 
   @media only screen and (max-width: 600px){
 
     .Myname{
-
     }
+    .Proyectos{
+      font-size: 130%;
+    }
+
     .libro{
       text-align:center;
-    }
-
-    .App-pages {
-      width:80vw;
-      height:60vh;
-
+      /* margin-top: 1%; */
+      height: 70vh;
     }
 
     .App-page { 
-  color: white;
-  height: 100%;
-}
+      height: 80vh;
+    }
 
-.App-page_brown {
-  background-position: center;
-  font-size: 500%;
-  display: flex;
-  align-items: center;
-  /* justify-content: center;  */
+    .App-page_brown {
+      background-size: 80% 70%;
+      background-position: top;
+      color:rgb(41, 39, 33); 
+      font-size: 200%;
+      padding-top: 30%;
+    }    
 
-}
+    /* .App-page_green {
+      background-size: 100% 100%;
+    } */
 
+    .App-page_blue {
+      background-size: 100% 70%;
+      background-position: top;
+    }
+
+    /* .App-page_orange {
+      background-size: 80% 98%;
+    } */
+
+    .pageone{
+      font-size: 200%;
+      margin-top: 6%;
+    }
+    .pagetwo{
+      font-size: 200%;
+      margin-top: 6%;
+    }
+
+    .NextBeforeBotton{
+      width: 100%;
+      position: absolute;
+      margin-top: -20%;
+      align-items: center;
+    }
 
     @keyframes animate {
       0% {
@@ -207,8 +219,67 @@
         background-position: 500%;
       }
     }
-
   }
+
+    @media screen and (max-device-width: 1050px) and (min-device-width: 600px) {
+
+      .App-page_brown {
+        background-size: 80% 90%;
+        background-position: top;
+        color:rgb(41, 39, 33); 
+        font-size: 500%;
+        padding-top: 30%;
+      }    
+      .App-page_blue {
+        background-size: 100% 90%;
+        background-position: top;
+      }
+      .pageone{
+        font-size: 300%;
+        margin-top: 6%;
+      }
+      .pagetwo{
+        font-size: 300%;
+        margin-top: 6%;
+      }
+      .NextBeforeBotton{
+        width:100%;
+        font-size: 200%;
+      }
+  
+    }
+
+      /* @media screen and (max-width: 1000px) and (min-width: 900px) {
+
+    .App-page_brown {
+      background-size: 80% 90%;
+      background-position: top;
+      color:rgb(41, 39, 33); 
+      font-size: 400%;
+      padding-top: 25%;
+    }    
+    .App-page_blue {
+      background-size: 100% 90%;
+      background-position: top;
+    }
+    .pageone{
+      font-size: 300%;
+      margin-top: 6%;
+    }
+    .pagetwo{
+      font-size: 300%;
+      margin-top: 6%;
+    }
+    .NextBeforeBotton{
+      width:100%;
+      margin-top: -10%;
+      position: absolute;
+      font-size: 200%;
+    }
+
+  } */
+
+  
 
 
 

@@ -41,9 +41,7 @@ render() {
                     <span className="MynameStyleA">Hi, I am: </span>
                     <span className="MynameStyleB">Maryali Rondon</span>
                 </div>
-                <div className="Proyectos">
-                    <h1>I can do...</h1>
-                </div>
+                <div className="Proyectos">I CAN DO...</div>
                 <div className='languages'>
                     <img className='laguagesOrden' src={require('./images/agile.jpg')} alt='aqui va react, css, git, etc'/>
                     <img className='laguagesOrden' src={require('./images/github-logo.jpg')} alt='aqui va react, css, git, etc'/>
@@ -52,9 +50,7 @@ render() {
                     <img className='laguagesOrden' src='https://www.netveloper.com/cw/eoo4oza8drvnrbtbsosg1350/cal_eoo4oza8drvnrbtbsosg1350_logo-Node.jpg' alt='aqui va react, css, git, etc'/>
                     <img className='laguagesOrden' src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqgFF0dEzAh_MPnkxfPqwSplTGJexkJRx9JMHrFzIVJtGnnN0C&usqp=CAU' alt='aqui va react, css, git, etc'/>
                 </div>
-                <div className="Proyectos">
-                    <h1>PROJECTS</h1>
-                </div>
+                <div className="Proyectos">PROJECTS</div>
                 <div className='libro'>
                     <FlippingPages
                         className="App-pages"
@@ -65,10 +61,41 @@ render() {
                         polyfill */
                         touch-action="none"
                     >
-                        <div className="App-page App-page_brown"></div>
-                        <div className="App-page App-page_green"></div>
-                        <div className="App-page App-page_blue"> </div>
-                        <div className="App-page App-page_orange"></div>
+                        <div className="App-page App-page_brown">
+                            <div>
+                                <p>At</p>
+                                <p>the</p>
+                                <p>beginning...</p>
+                            </div>
+                        </div>
+                        <div className="App-page App-page_blue">
+                        <div className="pagesonetwo">
+                                <div className="pageone">project
+
+                                </div>
+                                <div className="pagetwo">image
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="App-page App-page_blue"> 
+                            <div className="pagesonetwo">
+                                <div className="pageone">project
+
+                                </div>
+                                <div className="pagetwo">image
+
+                                </div>
+                            </div>
+                        </div>
+                        <div className="App-page App-page_brown">
+                            <div>
+                                <p>It Will</p>
+                                <p>be</p>
+                                <p>continued...</p>
+                            </div>
+                        </div>
                     </FlippingPages>
                 </div>    
                     {/* Buttons are required for keyboard navigation */}
