@@ -22,7 +22,7 @@ class about extends Component{
           </div>
 
 
-          <div className='maybe'>I am a creator </div>
+          <div className='maybe'>I am... </div>
             <div className='summary'>
               <div className='summaryuno'><img className='imageAbout' src='https://www.ecs.soton.ac.uk/sites/www.ecs.soton.ac.uk/files/ECS-embedded-system-boxgrid-480x297.png' alt=''/> </div>
               <div className='summarydos'>

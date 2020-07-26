@@ -26,7 +26,8 @@
 
   .iAsk {
     margin-top:5%;
-    color: rgba(31, 121, 160, 0.988);
+    /* color: rgba(31, 121, 160, 0.988); */
+    color:rgba(35, 131, 5, 0.733);
     font-size: 3vw;
   }
 
@@ -49,11 +50,11 @@
 
   .maybe{
     margin-top:5%;
-    background-color:lightblue;
-    color: rgba(31, 121, 160, 0.988);
+    /* color: rgba(31, 121, 160, 0.988); */
+    background-color:rgba(35, 131, 5, 0.733);
     padding-left: 10%;
-    height: 4%;
-    padding-top: 2.5%;
+    height: 2.5%;
+    padding-top: 1%;
     font-size: 2.5vw;
   }
   /* .maybedos{
