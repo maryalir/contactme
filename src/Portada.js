@@ -70,10 +70,15 @@ render() {
                         </div>
                         <div className="App-page App-page_blue">
                         <div className="pagesonetwo">
-                                <div className="pageone">project
-
+                                <div className="pageone">
+                                    <div className='Titulo'>Titulo</div>
+                                    <div className='Descrip'>
+                                        <p className='userStory'>As a: </p><p></p> Star war movies lover<p></p>
+                                        <p className='userStory'>I would like:</p> to have all the movies in just one place<p></p>
+                                        <p className='userStory'>So I can:</p> watch them wherever I want...
+                                    </div>
                                 </div>
-                                <div className="pagetwo">image
+                                <div className="pagetwo">Image
 
                                 </div>
                             </div>
