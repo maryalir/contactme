@@ -26,11 +26,11 @@ class about extends Component{
             <div className='summary'>
               <div className='summaryuno'><img className='imageAbout' src='https://www.ecs.soton.ac.uk/sites/www.ecs.soton.ac.uk/files/ECS-embedded-system-boxgrid-480x297.png' alt=''/> </div>
               <div className='summarydos'>
-                <p className='parrafo'>A person created to create...</p>
-                <p className='parrafo'>Sometimes, doesn't matter your edge or experience, 
-                you found something that you love and you are able 
-                to start from zero to get it, to fulfill your 
-                creator side...</p>
+                <p className='parrafo'>A person that wants to create...</p>
+                <p className='parrafo'>It doesn't matter about your edge or your experience. 
+                If you find something that you love and you are willing 
+                to work hard to get it, you can fulfill your 
+                aspirations...</p>
               </div>
             </div>
 
@@ -39,8 +39,9 @@ class about extends Component{
               <div className='summaryuno'>
               <p className='parrafo'>
                 I want to create practical solutions 
-                for people's problems, so I can help to improve 
-                their quality life. 
+                for problems that exist, as well as trying to prevent 
+                problems from ocurring. I want to do this so I can help to improve 
+                the quality of people's lives. 
               </p>
               </div>
               <div className='summarydos'> <img className='imageAbout' src='https://specials-images.forbesimg.com/imageserve/5e91e9f381295f00079a210b/960x0.jpg?fit=scale' alt=""/> </div>
