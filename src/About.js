@@ -24,7 +24,7 @@ class about extends Component{
 
           <div className='maybe'>I am... </div>
             <div className='summary'>
-              <div className='summaryuno'><img className='imageAbout' src='https://www.ecs.soton.ac.uk/sites/www.ecs.soton.ac.uk/files/ECS-embedded-system-boxgrid-480x297.png' alt=''/> </div>
+              <div className='summaryuno'><img className='imageAbout' src='https://www.einfochips.com/blog/wp-content/uploads/2019/11/a-blueprint-on-device-engineering-services-featured-Image.jpg' alt=''/> </div>
               <div className='summarydos'>
                 <p className='parrafo'>A person that wants to create...</p>
                 <p className='parrafo'>It doesn't matter about your edge or your experience. 
