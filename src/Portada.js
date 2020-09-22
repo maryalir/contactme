@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import FlippingPages from 'flipping-pages'
 import 'flipping-pages/FlippingPages.css'
+import VideoHome from './components/homeVideo'
 import './Portada.css'
 
 class portada extends Component {
@@ -71,30 +72,31 @@ render() {
                         <div className="App-page App-page_blue">
                         <div className="pagesonetwo">
                                 <div className="pageone">
-                                    <div className='Titulo'>Titulo</div>
+                                    <div className='Titulo'>Star War</div>
                                     <div className='Descrip'>
                                         <p className='userStory'>As a: </p><p></p> Star war movies lover<p></p>
-                                        <p className='userStory'>I would like:</p> to have all the movies in just one place<p></p>
-                                        <p className='userStory'>So I can:</p> watch them wherever I want...
+                                        <p className='userStory'>I would like:</p> To have all the movies in just one place<p></p>
+                                        <p className='userStory'>So I can:</p> Watch them wherever I want...
                                     </div>
                                 </div>
-                                <div className="pagetwo">Image
-
+                                <div className="pagetwo">
+                                    <VideoHome /> 
                                 </div>
                             </div>
                         </div>
 
                         <div className="App-page App-page_blue"> 
                             <div className="pagesonetwo">
-                                <div className="pageone">project                                    <div className='Titulo'>Titulo</div>
+                                <div className="pageone">                                
+                                 <div className='Titulo'>Odd Jobs</div>
                                     <div className='Descrip'>
-                                        <p className='userStory'>As a: </p><p></p> Star war movies lover<p></p>
-                                        <p className='userStory'>I would like:</p> to have all the movies in just one place<p></p>
-                                        <p className='userStory'>So I can:</p> watch them wherever I want...
+                                        <p className='userStory'>As a: </p><p></p> Contractor<p></p>
+                                        <p className='userStory'>I would like:</p> To hire cualified people for specific task I need to be done...<p></p>
+                                        <p className='userStory'>So I can:</p> Have always someone to help me solve my problems......
                                     </div>
                                 </div>
-                                <div className="pagetwo">image
-
+                                <div className="pagetwo">
+                                    <VideoHome /> 
                                 </div>
                             </div>
                         </div>
