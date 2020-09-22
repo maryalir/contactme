@@ -162,6 +162,14 @@
   margin-top: 5%;
 }
 
+.presentationScreen{
+  width: 75%;
+  height: 30%;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.014);
+  margin-left:-12%
+}
+
 
   @keyframes animate {
     0% {
@@ -175,6 +183,7 @@
   @media only screen and (max-width: 600px){
 
     .Myname{
+      
     }
     .Proyectos{
       font-size: 130%;
@@ -213,7 +222,7 @@
 
     .pageone{
       font-size: 200%;
-      margin-top: 6%;
+      /* margin-top: 6%; */
     }
     .pagetwo{
       font-size: 200%;
@@ -226,6 +235,26 @@
       margin-top: -20%;
       align-items: center;
     }
+
+    .presentationScreen{
+      height: 20%;
+    }
+    .userStory{
+      font-size: 100%;
+    }
+    .Titulo{
+      width: 100%;
+      height: 10%;
+      font-size: 100%;
+      padding-left: 25%;
+      margin-top: 0%;
+    }
+    .Descrip{
+      width:100%;
+      height: 80%;
+      padding-left: 25%;
+      font-size: 50%;
+      }
 
     @keyframes animate {
       0% {
