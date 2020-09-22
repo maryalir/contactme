@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import FlippingPages from 'flipping-pages'
 import 'flipping-pages/FlippingPages.css'
 import VideoHome from './components/homeVideo'
+import VideoHomedos from './components/homeVideodos'
 import './Portada.css'
 
 class portada extends Component {
@@ -96,7 +97,7 @@ render() {
                                     </div>
                                 </div>
                                 <div className="pagetwo">
-                                    <VideoHome /> 
+                                    <VideoHomedos /> 
                                 </div>
                             </div>
                         </div>
