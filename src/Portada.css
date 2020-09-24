@@ -47,9 +47,6 @@
 }
 
 .languages{
-  /* display:flex; */
-  /* float:left; */
-  /* flex-direction:column; */
   width:100%;
   text-align:center;
   background-color:white;
@@ -117,7 +114,6 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 .pagesonetwo{
   display: flex;
@@ -144,11 +140,11 @@
   height: 80%;
   padding-left: 25%;
   font-size: 150%;
-  }
+}
 
-  .userStory{
-    color: red;
-  }
+.userStory{
+  color: red;
+}
 
 .pagetwo{
   width: 50%;
@@ -162,7 +158,7 @@
 
 .presentationScreen{
   width: 100%;
-  height: 30%;
+  height: 50%;
   margin-top: 10%;
   background-color: rgba(0, 0, 0, 0.014);
   margin-left:-12%
@@ -173,11 +169,92 @@
   width:70% ;
 }
 .webSiteLink{
-margin-top: 40%;
+margin-top: 20%;
 margin-left: -20%;
 font-size: 70%;
 }
 
+@keyframes animate {
+  0% {
+    background-position: -400%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+  
+@media only screen and (max-width: 600px){
+
+  .Proyectos{
+    font-size: 130%;
+  }
+  .libro{
+    text-align:center;
+    /* margin-top: 1%; */
+    height: 70vh;
+  }
+  .App-page { 
+    height: 80vh;
+  }
+  .App-page_brown {
+    background-size: 80% 70%;
+    background-position: top;
+    color:rgb(41, 39, 33); 
+    font-size: 200%;
+    padding-top: 30%;
+  }    
+  .App-page_blue {
+    background-size: 100% 70%;
+    background-position: top;
+  }
+  .pageone{
+    font-size: 150%;
+    margin-top: -2%;
+  }
+  .pagetwo{
+    font-size: 200%;
+    margin-top: 6%;
+  }
+
+  .NextBeforeBotton{
+    width: 100%;
+    position: absolute;
+    margin-top: -20%;
+    align-items: center;
+  }
+
+  .userStory{
+    font-size: 100%;
+  }
+  .Titulo{
+    width: 100%;
+    height: 10%;
+    font-size: 100%;
+    padding-left: 25%;
+    margin-top: 0%;
+  }
+  .Descrip{
+    width:100%;
+    height: 80%;
+    padding-left: 25%;
+    font-size: 50%;
+    }
+  .presentationScreen{
+    width: 100%;
+    height: 35%;
+    background-color: rgba(0, 0, 0, 0.014);
+    margin-left:-12%
+  }
+  .mitadPageDos{
+    display: flex;
+    flex-direction: column;
+    width:70% ;
+  }
+  .webSiteLink{
+  margin-top: 30%;
+  margin-left: -20%;
+  font-size: 70%;
+  }
 
   @keyframes animate {
     0% {
@@ -187,158 +264,56 @@ font-size: 70%;
       background-position: 500%;
     }
   }
-  
-  @media only screen and (max-width: 600px){
+}
 
-    .Myname{
-      
-    }
-    .Proyectos{
-      font-size: 130%;
-    }
+@media screen and (max-device-width: 1050px) and (min-device-width: 600px) {
 
-    .libro{
-      text-align:center;
-      /* margin-top: 1%; */
-      height: 70vh;
-    }
-
-    .App-page { 
-      height: 80vh;
-    }
-
-    .App-page_brown {
-      background-size: 80% 70%;
-      background-position: top;
-      color:rgb(41, 39, 33); 
-      font-size: 200%;
-      padding-top: 30%;
-    }    
-
-    /* .App-page_green {
-      background-size: 100% 100%;
-    } */
-
-    .App-page_blue {
-      background-size: 100% 70%;
-      background-position: top;
-    }
-
-    /* .App-page_orange {
-      background-size: 80% 98%;
-    } */
-
-    .pageone{
-      font-size: 150%;
-      margin-top: -2%;
-    }
-    .pagetwo{
-      font-size: 200%;
-      margin-top: 6%;
-    }
-
-    .NextBeforeBotton{
-      width: 100%;
-      position: absolute;
-      margin-top: -20%;
-      align-items: center;
-    }
-
-    .presentationScreen{
-      height: 20%;
-    }
-    .userStory{
-      font-size: 100%;
-    }
-    .Titulo{
-      width: 100%;
-      height: 10%;
-      font-size: 100%;
-      padding-left: 25%;
-      margin-top: 0%;
-    }
-    .Descrip{
-      width:100%;
-      height: 80%;
-      padding-left: 25%;
-      font-size: 50%;
-      }
-      .presentationScreen{
-        width: 100%;
-        height: 30%;
-        margin-top: 10%;
-        background-color: rgba(0, 0, 0, 0.014);
-        margin-left:-12%
-      }
-      .mitadPageDos{
-        display: flex;
-        flex-direction: column;
-        width:70% ;
-      }
-      .webSiteLink{
-      margin-top: 60%;
-      margin-left: -20%;
-      font-size: 70%;
-      }
-
-    @keyframes animate {
-      0% {
-        background-position: -400%;
-      }
-      100% {
-        background-position: 500%;
-      }
-    }
+  .App-page_brown {
+    background-size: 80% 90%;
+    background-position: top;
+    color:rgb(41, 39, 33); 
+    font-size: 500%;
+    padding-top: 30%;
+  }    
+  .App-page_blue {
+    background-size: 100% 90%;
+    background-position: top;
+  }
+  .pageone{
+    font-size: 300%;
+    margin-top: 6%;
+  }
+  .pagetwo{
+    font-size: 300%;
+    margin-top: 6%;
+  }
+  .NextBeforeBotton{
+    width:100%;
+    font-size: 200%;
   }
 
-    @media screen and (max-device-width: 1050px) and (min-device-width: 600px) {
-
-      .App-page_brown {
-        background-size: 80% 90%;
-        background-position: top;
-        color:rgb(41, 39, 33); 
-        font-size: 500%;
-        padding-top: 30%;
-      }    
-      .App-page_blue {
-        background-size: 100% 90%;
-        background-position: top;
-      }
-      .pageone{
-        font-size: 300%;
-        margin-top: 6%;
-      }
-      .pagetwo{
-        font-size: 300%;
-        margin-top: 6%;
-      }
-      .NextBeforeBotton{
-        width:100%;
-        font-size: 200%;
-      }
-
-      .presentationScreen{
-        height: 20%;
-      }
-      .userStory{
-        font-size: 100%;
-      }
-      .Titulo{
-        width: 100%;
-        height: 10%;
-        font-size: 100%;
-        padding-left: 25%;
-        margin-top: 0%;
-      }
-      .Descrip{
-        width:100%;
-        height: 80%;
-        padding-left: 25%;
-        font-size: 50%;
-        }
-
-  
+  .presentationScreen{
+    height: 20%;
+  }
+  .userStory{
+    font-size: 100%;
+  }
+  .Titulo{
+    width: 100%;
+    height: 10%;
+    font-size: 100%;
+    padding-left: 25%;
+    margin-top: 0%;
+  }
+  .Descrip{
+    width:100%;
+    height: 80%;
+    padding-left: 25%;
+    font-size: 50%;
     }
+
+
+}
 
       /* @media screen and (max-width: 1000px) and (min-width: 900px) {
 
