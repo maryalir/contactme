@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import FlippingPages from 'flipping-pages'
 import 'flipping-pages/FlippingPages.css'
-import VideoHome from './components/homeVideo'
-import VideoHomedos from './components/homeVideodos'
+import VideoStarWars from './components/videoStarWars'
+import VideoOddJobs from './components/videoOddJobs'
 import './Portada.css'
 
 class portada extends Component {
@@ -76,12 +76,12 @@ render() {
                                     <div className='Titulo'>Star War</div>
                                     <div className='Descrip'>
                                         <p className='userStory'>As a: </p><p></p> Star war movies lover<p></p>
-                                        <p className='userStory'>I would like:</p> To have all the movies in just one place<p></p>
+                                        <p className='userStory'>I would like:</p> To have all the movie trailes in just one place<p></p>
                                         <p className='userStory'>So I can:</p> Watch them wherever I want...
                                     </div>
                                 </div>
                                 <div className="pagetwo">
-                                    <VideoHome /> 
+                                    <VideoStarWars /> 
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ render() {
                                     </div>
                                 </div>
                                 <div className="pagetwo">
-                                    <VideoHomedos /> 
+                                    <VideoOddJobs /> 
                                 </div>
                             </div>
                         </div>

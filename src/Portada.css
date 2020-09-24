@@ -161,11 +161,21 @@
 }
 
 .presentationScreen{
-  width: 75%;
+  width: 100%;
   height: 30%;
-  margin-top: 5%;
+  margin-top: 10%;
   background-color: rgba(0, 0, 0, 0.014);
   margin-left:-12%
+}
+.mitadPageDos{
+  display: flex;
+  flex-direction: column;
+  width:70% ;
+}
+.webSiteLink{
+margin-top: 40%;
+margin-left: -20%;
+font-size: 70%;
 }
 
 
@@ -253,6 +263,23 @@
       padding-left: 25%;
       font-size: 50%;
       }
+      .presentationScreen{
+        width: 100%;
+        height: 30%;
+        margin-top: 10%;
+        background-color: rgba(0, 0, 0, 0.014);
+        margin-left:-12%
+      }
+      .mitadPageDos{
+        display: flex;
+        flex-direction: column;
+        width:70% ;
+      }
+      .webSiteLink{
+      margin-top: 60%;
+      margin-left: -20%;
+      font-size: 70%;
+      }
 
     @keyframes animate {
       0% {
@@ -309,6 +336,7 @@
         padding-left: 25%;
         font-size: 50%;
         }
+
   
     }
 
