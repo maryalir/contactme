@@ -8,13 +8,13 @@ const VideoOddJobs = () => {
         <div className='mitadPageDos'>
             <div className='presentationScreen'>
                 <ReactPlayer
-                    url='src/videos/OddJobs-Demo1.mov'
+                    url='https://leo.nyc3.digitaloceanspaces.com/swapi-pics/charactersVideo%20(online-video-cutter.com)%20(1).mp4'
                     // className={reactPlayer}
                     playing= {false} 
                     controls
                     autoPlay = {false}
                     width='100%'
-                    height='200%'
+                    height='100%'
                 />
             </div>
             <div className='webSiteLink'>

@@ -2,7 +2,7 @@ import React from 'react'
 import ReactPlayer from 'react-player'
 import '../Portada.css'
 
-const VideoStarWars = () => {
+const VideoOddJobs = () => {
     return(
         <>
         <div className='mitadPageDos'>
@@ -14,18 +14,17 @@ const VideoStarWars = () => {
                     controls
                     autoPlay = {false}
                     width='100%'
-                    height='200%'
+                    height='100%'
                 />
             </div>
             <div className='webSiteLink'>
-                <link src='' /><a href="https://www.mozilla.org/es-ES/" blank='true'>Go to   website</a>
+                <link src='' /><a href="https://www.mozilla.org/es-ES/" blank='true'>Go to website</a>
             </div>
         </div>
       </>
     )
 }
 
-
-export default VideoStarWars
+export default VideoOddJobs
 
 
